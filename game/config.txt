@@ -1,0 +1,8 @@
+Game_name:塔菲恋曲：平安夜誓约之章;
+Game_key:1626dd3bd267b53;
+Title_img:820ad3a6-e43b-4d3f-9eef-d726efa8eabc.png;
+Title_bgm:Start.mp3;
+Textbox_theme:imss;
+Description:塔菲恋曲：平安夜誓约之章;
+Package_name:;
+Game_Logo:820ad3a6-e43b-4d3f-9eef-d726efa8eabc.png;
