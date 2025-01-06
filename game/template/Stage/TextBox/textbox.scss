@@ -1,22 +1,60 @@
+//./game/template/Stage/TextBox/textbox.scss
+
+// Utility Variables for Fonts
+$font-primary: 'HYMeiMengTiJ', 'Arial', '思源宋体', sans-serif;
+// $font-secondary: 'HYMeiMengTiJ', serif;      
+// $font-accent: 'LXGWWenKai-Regular', serif;     
+
+@font-face {
+    font-family: 'DFFangYuanW7-GB5';
+    src: url('../../../../assets/HuaKangFangYuanW7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+  font-family: 'HYMeiMengTiJ';
+  src: url('../../../../assets/HYMeiMengTiJ.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LXGWWenKai-Regular';
+  src: url('../../../../assets/LXGWWenKai-Regular-9375313a.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+// body {
+// font-family: $font-primary !important;
+// }
+  
 .TextBox_main {
-z-index: 3;
-position: absolute;
-right: 25px;
-min-height: 425px;
-max-height: 425px;
-background-blend-mode: darken;
-border-radius: 20px 20px 20px 20px;
-bottom: 20px;
-left: 275px;
-font-weight: bold;
-color: white;
-padding: 75px 50px 70px 200px;
-box-sizing: border-box;
-display: flex;
-flex-flow: column;
-align-items: flex-start;
-letter-spacing: 0.2em;
-transition: left 0.33s;
+  z-index: 3;
+  position: absolute;
+  right: 25px;
+  min-height: 425px;
+  max-height: 425px;
+  background-blend-mode: darken;
+  // border: 2px solid red; /* Debug */
+  border-radius: 20px 20px 20px 20px;
+  bottom: 20px;
+  left: 275px;
+  font-weight: bold;
+  color: white;
+  padding: 75px 50px 70px 200px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  letter-spacing: 0.2em;
+  transition: left 0.33s;
+  font-family: $font-primary !important;
 }
 
 .TextBox_Background {
@@ -42,7 +80,7 @@ background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
 z-index: 2;
-font-family: "华康方圆体W7", serif;
+font-family: $font-primary;
 }
 
 .inner {
@@ -77,7 +115,7 @@ z-index: 3;
 border: 4px solid rgba(255, 255, 255, 0);
 min-width: 25%;
 background: transparent;
-font-family: "华康方圆体W7", serif;
+font-family: $font-primary;
 }
 
 .TextBox_ShowName_Background {
@@ -119,7 +157,7 @@ background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
 z-index: 2;
-font-family: "华康方圆体W7", serif;
+font-family: $font-primary;
 }
 
 .innerName {
@@ -127,13 +165,13 @@ position: absolute;
 left: 0;
 top: 0;
 z-index: 1;
-font-family: "华康方圆体W7", serif;
+font-family: $font-primary;
 }
 
 .text {
 line-height: 1.9em;
 overflow: hidden;
-font-family: "华康方圆体W7", serif;
+font-family: $font-primary;
 
 }
 
